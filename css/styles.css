@@ -1,0 +1,265 @@
+:root {
+    --white: #FFF;
+    --black: #000;
+}
+
+body {
+    color: var(--black);
+    font-family: 'roboto', 'sans-serif';
+    font-family: 'raleway', 'sans-serif';
+    width: 1600px;
+    height: 2410px;
+}
+
+.container {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section {
+    padding-top: 94px;
+}
+
+/*stilos del encabezado*/
+.bg-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-line ul{
+    list-style-type: none;
+    display: flex;
+}
+
+#logo-web {
+    color: #2196F3;
+    font-size: 26px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    text-decoration: none;
+    margin-top: 24px;
+    padding-right: 0;
+
+}
+
+.style-link {
+    color: #212121;
+    font-family: 'Roboto';
+    font-size: 14px;
+    text-decoration: none;
+    height: 16px;
+    margin-top: 24px;
+    margin-right: 16px;
+    margin-bottom: 25px;
+    padding-left: 50px;
+}
+
+.style-link:hover,
+.style-link:focus {
+    color: #2196F3;
+}
+
+.contact {
+    color: #757575;
+    text-decoration: none;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.contact:hover, .contact:focus {
+    color: #2196F3;
+}
+
+/*stilos del BG*/
+.principal-frame {
+    background-color: #2F303A;
+    min-height: 600px;
+    flex-direction: column;
+}
+
+.solutions-title {
+    color: #FFFFFF;
+    size: 44px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    padding-top: 200px;
+    margin-bottom: 40px;
+}
+
+.solutions-button {
+    cursor: pointer;
+    align-items: center;
+    margin-top: 30px;
+    margin-right: 669px;
+    margin-bottom: 200px;
+    margin-left: 670px;
+    padding: 10, 32, 10, 32;
+    background-color: #2196F3;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+ /*stilos de los parrafos*/
+ .section-par {
+    display: flex;
+    padding-right: 10px;
+    padding-left: 10px;
+    }
+
+.section-par ul {
+    list-style: none;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    }
+
+.value {
+    color: #212121;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+}
+
+.val-description {
+    font-size: 14px;
+    line-height: 2.4;
+    letter-spacing: 0.03em;
+}
+
+/*a qué nos dedicamos estilos*/
+.title-focus {
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.focus-on ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+/*stilos del equipo de trabajo*/
+.title-team {
+    color: #212121;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 188px;
+    margin-bottom: -100px;
+}
+
+.team-work ul{
+    background-color: #F5F4FA;
+    height: 648px;
+    width: 1600px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.professional-board {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    margin-right: 37px;
+    margin-left: 37px;
+}
+
+.professional-name {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.profession {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* estilos del footer*/
+.webstudio-footer {
+background-color: #2F303A;
+height: 252px;
+left: 0px;
+top: 2158px;
+margin-top: -15px;
+}
+
+final-list {
+    color: #FFFFFF;
+    size: 14px;
+    margin-top: 9px;
+    margin-bottom: 83px;
+    padding-left: 115px;
+    list-style: none;
+}
+
+.final-list ul {
+    list-style: none;
+    line-height: 2.4;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.list-city {
+    color: #FFFFFF;
+    letter-spacing: 0.03em
+}
+
+/*ESTILOS DEL PORTFOLIO*/
+.border-line {
+    border-bottom: 1px solid #ECECEC;
+    padding-top: 16px;
+    display: flex;
+}
+
+.bg-line ul {
+    list-style: none;
+    display: flex;
+}
+
+.button {
+    cursor: pointer;
+    background-color: #F5F4FA;
+    font-size: 16px;
+    border-radius: 4px;
+    
+}
+
+.button:hover {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.buttons ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 112px;
+}
+
+.projects ul{
+    list-style: none;
+}
+
+.project-item {
+    display: flex;
+    left: calc(50% - 370px/2 - 400px);
+    top: calc(50% - 404px/2 - 464px);
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
