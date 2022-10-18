@@ -5,20 +5,20 @@
 
 body {
     color: var(--black);
-    font-family: 'roboto', 'sans-serif';
-    font-family: 'raleway', 'sans-serif';
+    font-family: 'Roboto', 'sans-serif';
+    font-family: 'Raleway', 'sans-serif';
     width: 1600px;
     height: 2410px;
 }
 
 .container {
     width: 1200px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: auto;
 }
 
 .section {
     padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 /*stilos del encabezado*/
@@ -40,6 +40,7 @@ body {
     text-decoration: none;
     margin-top: 24px;
     padding-right: 0;
+    margin-left: 95px;
 
 }
 
@@ -100,6 +101,11 @@ body {
     color: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+}
+
+.solutions-button:hover,.solutions-button:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
 }
  /*stilos de los parrafos*/
  .section-par {
@@ -189,11 +195,11 @@ body {
 
 /* estilos del footer*/
 .webstudio-footer {
-background-color: #2F303A;
-height: 252px;
-left: 0px;
-top: 2158px;
-margin-top: -15px;
+    background-color: #2F303A;
+    min-height: 252px;
+    left: 0px;
+    top: 2158px;
+    margin-top: auto;
 }
 
 final-list {
@@ -216,6 +222,12 @@ final-list {
     letter-spacing: 0.03em
 }
 
+.contact-foot {
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
 /*ESTILOS DEL PORTFOLIO*/
 .border-line {
     border-bottom: 1px solid #ECECEC;
@@ -226,14 +238,13 @@ final-list {
 .bg-line ul {
     list-style: none;
     display: flex;
+    
 }
 
 .button {
     cursor: pointer;
     background-color: #F5F4FA;
     font-size: 16px;
-    border-radius: 4px;
-    
 }
 
 .button:hover {
@@ -244,22 +255,59 @@ final-list {
 .buttons ul {
     list-style: none;
     display: flex;
-    justify-content: center;
     padding-right: 50px;
     padding-left: 50px;
     padding-top: 112px;
+    justify-content: space-evenly;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-bottom: none;
+
 }
 
-.projects ul{
-    list-style: none;
-}
-
-.project-item {
+.projects {
     display: flex;
-    left: calc(50% - 370px/2 - 400px);
-    top: calc(50% - 404px/2 - 464px);
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+    
+}
+
+.project-item li {
+    box-sizing: border-box;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
+    flex-wrap: wrap;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    list-style: none;
+    flex-basis: left calc(50% - 370px/2 - 400px);
+    flex-basis: top calc(50% - 294px/2 + 349px);
+}
+
+.name-projt {
+    letter-spacing: 0.06em;
+    font-size: 18px;
+    line-height: 36px;
+    color: #212121;
+    padding: auto;
+}
+
+.description-projt {
+    letter-spacing: 0.03em;
+    font-size: 16px;
+    line-height: 30px;
+    color: #757575
+}
+
+/*portafolio footer*/
+#social-title {
+    display: flex;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.social-links {
+display: flex;
 }
 
