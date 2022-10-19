@@ -9,6 +9,7 @@ body {
     font-family: 'Raleway', 'sans-serif';
     width: 1600px;
     height: 2410px;
+    [margin: 0px;]
 }
 
 .container {
@@ -75,9 +76,12 @@ body {
 
 /*stilos del BG*/
 .principal-frame {
-    background-color: #2F303A;
-    min-height: 600px;
+    background-color: #2F303A; 
     flex-direction: column;
+    Width: 1600px;
+    Height: 600px; 
+    Top: 2158px;
+
 }
 
 .solutions-title {
@@ -90,6 +94,8 @@ body {
 }
 
 .solutions-button {
+    width: 261px;
+    height: 50px;
     cursor: pointer;
     align-items: center;
     margin-top: 30px;
@@ -108,13 +114,13 @@ body {
     color: #FFFFFF;
 }
  /*stilos de los parrafos*/
- .section-par {
+ .section-paragraph {
     display: flex;
     padding-right: 10px;
     padding-left: 10px;
     }
 
-.section-par ul {
+.section-paragraphgit ul{
     list-style: none;
     display: flex;
     margin-top: 10px;
