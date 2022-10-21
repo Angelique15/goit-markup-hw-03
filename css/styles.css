@@ -254,6 +254,7 @@ footer .container {
     cursor: pointer;
     background-color: #F5F4FA;
     font-size: 16px;
+    font-weight: 500;
     border-radius: 4px;
     outline: none;
     border: none;
