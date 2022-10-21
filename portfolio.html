@@ -7,16 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/modern-normalize@1.1.0/modern-normalize.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/modern-normalize@1.1.0/modern-normalize.css">
 </head>
 
 <body>
-    <!-- El encabezado de la página web -->
-    <header class="border-line">
+    <!-- El encabezado"border-line" de la página web -->
+    <header>
         <div class="container">
             <div>
                 <a id="logo-web" href="webstudio">WebStudio</a>
@@ -29,13 +29,13 @@
                             <a class="style-link" href="./portfolio.html">Portafolio</a>
                         </li>
                         <li>
-                            <a class="style-link" href="./">Contactos</a>
+                            <a class="style-link" href="./index.html">Contactos</a>
                         </li>
                     </ul>
                 </nav>
             </div>
             <ul>
-                <li class="style-link contact"><a href="info@devstudio.com">info@devstudio.com</a></li>
+                <li></li><a class="style-link contact" href="info@devstudio.com">info@devstudio.com</a></li>
                 <li><a class="style-link contact" href="tel:+525555296000">+52 55 5529 6000</a></li>
             </ul>
         </div>
@@ -68,7 +68,7 @@
                     <li class="project-board">
                         <img class="image" src="images/pjt01.jpg" alt="pagina cargada en portatil" width="370"
                             height="294">
-                        <h3 class="name-projt">Tecnoduck</h3>
+                        <h3 class="name-project">Tecnoduck</h3>
                         <h4 class="description-project">Sitio-web</h4>
                     </li>
                     <li class="project-board">
@@ -79,41 +79,41 @@
                     <li class="project-board">
                         <img class="image" src="images/pjt03.jpg" alt="logo restaurante de mar" width="370"
                             height="294">
-                        <h3 class="name-projt">Restaurante Seafood</h3>
+                        <h3 class="name-project">Restaurante Seafood</h3>
                         <h4 class="description-project">Aplicaciones</h4>
                     </li>
                     <li class="project-board">
                         <img class="image" src="images/pjt04.jpg" alt="audiofonos diadema" width="370" height="294">
-                        <h3 class="name-projt">Proyecto Prime</h3>
+                        <h3 class="name-project">Proyecto Prime</h3>
                         <h4 class="description-project">Marketing</h4>
                     </li>
                     <li class="project-board">
                         <img class="image" src="images/pjt05.jpg" alt="cajas blanca y cafe" width="370" height="294">
-                        <h3 class="name-projt">Proyecto Cajas</h3>
+                        <h3 class="name-project">Proyecto Cajas</h3>
                         <h4 class="description-project">Aplicaciones</h4>
                     </li>
                     <li class="project-board">
                         <img class="image" src="images/pjt06.jpg" alt="pagina cargada en pantalla de escritorio"
                             width="370" height="294">
-                        <h3 class="name-projt">La inspiración no tiene límites</h3>
+                        <h3 class="name-project">La inspiración no tiene límites</h3>
                         <h4 class="description-project">Sitio-web</h4>
                     </li>
                     <li class="project-board">
                         <img class="image" src="images/pjt07.jpg" alt="paginas de libro abiertas" width="370"
                             height="294">
-                        <h3 class="name-projt">Edición Limitada</h3>
+                        <h3 class="name-project">Edición Limitada</h3>
                         <h4 class="description-project">Diseño</h4>
                     </li>
                     <li class="project-board">
                         <img class="image" src="images/pjt08.jpg" alt="etiqueta blanca lab el tag" width="370"
                             height="294">
-                        <h3 class="name-projt">Proyecto LAB</h3>
+                        <h3 class="name-project">Proyecto LAB</h3>
                         <h4 class="description-project">Marketing</h4>
                     </li>
                     <li class="project-board">
                         <img class="image" src="images/pjt09.jpg" alt="persona teclando en portatil" width="370"
                             height="294">
-                        <h3 class="name-projt">Negocio en Crecimiento</h3>
+                        <h3 class="name-project">Negocio en Crecimiento</h3>
                         <h4 class="description-project">Aplicaciones</h4>
                     </li>
                 </ul>
@@ -122,7 +122,7 @@
     </main>
     <!--Contenido del pie de página-->
     <footer>
-        <div class="container section">
+        <div class="container">
             <address>
                 <a id="logo-web" href="webstudio">WebStudio</a>
                 <ul>
@@ -132,10 +132,20 @@
                 </ul>
             </address>
             <h3 class="media-title">ENCUENTRENOS EN</h3>
-            <a href="#" class="fa fa-instagram"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-linkedin"></a>
+            <ul class="media-links">
+                <li>
+                    <a href="#" class="fa fa-instagram"></a>
+                </li>
+                <li>
+                    <a href="#" class="fa fa-twitter"></a>
+                </li>
+                <li>
+                    <a href="#" class="fa fa-facebook"></a>
+                </li>
+                <li>
+                    <a href="#" class="fa fa-linkedin"></a>
+                </li>
+            </ul>
         </div>
     </footer>
 </body>
