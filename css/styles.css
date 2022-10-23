@@ -23,6 +23,10 @@ header ul {
     display: flex;
 }
 
+ul {
+    padding: 0;
+}
+
 header .container {
     display: flex;
     justify-content: space-between;
@@ -67,6 +71,7 @@ footer .container {
     font-family: 'Raleway';
     font-weight: 700;
     text-decoration: none;
+    margin-right: 93px;
 }
 
 .style-link {
@@ -75,7 +80,6 @@ footer .container {
     font-size: 14px;
     text-decoration: none;
     margin-left: 50px;
-    padding-left: 0;
 }
 
 
@@ -181,8 +185,9 @@ footer .container {
 
 .focus-on {
     display: flex;
-    justify-content: space-evenly;
-    margin-left: -40px;
+    justify-content: space-between;
+    width: 100%;
+    
 }
 
 .section-3.container {
@@ -219,18 +224,27 @@ footer .container {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     width: 270px;
-    height: 368px;
+    min-height: 368px;
 }
 
 .professional-name {
+    width: 100%;
+    height: 19px;
+    left: 295px;
+    top: 1986px;
+    text-align: center;
     font-size: 16px;
     line-height: 19px;
-    text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    margin-bottom: 10px;
 }
 
 .profession {
+    width: 100%;
+    height: 19px;
+    left: 253px;
+    top: 2015px;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
@@ -245,8 +259,6 @@ footer .container {
     line-height: 24px;
     width: 231px;
     min-height: 21px;
-    margin-left: -40px;
-    
 }
 
 .contact-foot {
@@ -256,7 +268,6 @@ footer .container {
     text-decoration: none;
     width: 231px;
     min-height: 21px;
-    margin-left: -40px;
     
 }
 
@@ -271,6 +282,8 @@ footer .container {
 }
 
 .button {
+    width: 100px;
+    height: 38px;
     cursor: pointer;
     background-color: #F5F4FA;
     font-size: 16px;
@@ -278,9 +291,9 @@ footer .container {
     border-radius: 4px;
     outline: none;
     border: none;
-    margin-right: 26px;
+    margin-right: 8px;
     top: 186px;
-    margin-bottom: -110px;
+    justify-content: space-between;
 }
 
 .button:hover {
@@ -303,8 +316,8 @@ footer .container {
 }
 
 .project-board {
-    Width: 370px;
-    Height: 408px;
+    width: 370px;
+    height: 294px;
     box-sizing: border-box;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
