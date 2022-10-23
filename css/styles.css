@@ -6,7 +6,7 @@
 
 body {
     color: var(--black);
-    font-family: 'Roboto', 'sans-serif';
+    font-family:'roboto', 'sans-serif';
 }
 
 header {
@@ -26,7 +26,7 @@ header ul {
 header .container {
     display: flex;
     justify-content: space-between;
-    padding: calc((60px - 60px)/ 2)
+    padding: calc((80px - 48px)/ 2) 0;
 }
 
 header .container :nth-child(1) {
@@ -36,12 +36,12 @@ header .container :nth-child(1) {
 
 footer {
     background-color: #2F303A;
+    min-height: 252px;
 }
 
 footer .container {
-    padding: 60px;
     display: flex;
-    margin-left: 215px;
+    
 }
 
 
@@ -57,6 +57,7 @@ footer .container {
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
+    padding-left: 0;
 }
 
 /*stilos del encabezado*/
@@ -73,8 +74,10 @@ footer .container {
     font-family: 'Roboto';
     font-size: 14px;
     text-decoration: none;
-    padding-left: 50px;
+    margin-left: 50px;
+    padding-left: 0;
 }
+
 
 .style-link:hover,
 .style-link:focus {
@@ -85,6 +88,7 @@ footer .container {
     color: #757575;
     text-decoration: none;
     display: flex;
+    padding-left: 0;
 }
 
 .contact:hover,
@@ -139,8 +143,9 @@ footer .container {
 
 .paragraph {
     display: flex;
-    padding-left: 30px;
-    padding-right: 30px;
+    justify-content: space-between;
+    padding-left: 0;
+
 }
 
 .value {
@@ -148,6 +153,11 @@ footer .container {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
+    height: 16px;
+    width: 270px;
+    left: 215px;
+    top: 775px;
+    
 }
 
 .val-description {
@@ -155,6 +165,9 @@ footer .container {
     font-size: 14px;
     line-height: 2.4;
     letter-spacing: 0.03em;
+    width: 270px;
+    height: 75px;
+    
 }
 
 /*a qué nos dedicamos estilos*/
@@ -168,17 +181,20 @@ footer .container {
 
 .focus-on {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    margin-left: -40px;
 }
 
 .section-3.container {
     background-color: #FFFFFF;
-    padding: calc((87px - 48.09px)/ 2)
+    Width: 373.16px;
+    Height: 323.7px;
 }
 
 /*stilos del equipo de trabajo*/
 .section-4 {
     background-color: #F5F4FA;
+    height: 648px;
 }
 
 .title-team {
@@ -193,16 +209,17 @@ footer .container {
     background-color: #F5F4FA;
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    padding-left: 0;
 }
 
 .professional-board {
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    margin-right: 37px;
-    margin-left: 37px;
+    width: 270px;
+    height: 368px;
 }
 
 .professional-name {
@@ -225,13 +242,16 @@ footer .container {
 .list-city {
     color: #FFFFFF;
     letter-spacing: 0.03em;
-    width: 221px;
+    line-height: 24px;
+    width: 231px;
     min-height: 21px;
     margin-left: -40px;
+    
 }
 
 .contact-foot {
     letter-spacing: 0.03em;
+    line-height: 24px;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     width: 231px;
@@ -268,12 +288,18 @@ footer .container {
     color: #FFFFFF;
 }
 
+.section-6 {
+   justify-content: space-around;
+    padding-block-end:  40px;
+}
+
 .projects {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    gap: 20px;
+    gap: 30px;
     margin-top: -160px;
+    padding-left: 0;
 }
 
 .project-board {
@@ -301,6 +327,7 @@ footer .container {
     line-height: 36px;
     color: #212121;
     padding-left: 24px;
+    margin-bottom: 4px;
 }
 
 .description-project {
@@ -308,6 +335,7 @@ footer .container {
     font-size: 16px;
     letter-spacing: 0.03em;
     padding-left: 24px;
+    margin: 1px;
 }
 
 /*portafolio footer*/
