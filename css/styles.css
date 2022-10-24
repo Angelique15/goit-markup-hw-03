@@ -194,6 +194,7 @@ footer .container {
     background-color: #FFFFFF;
     Width: 373.16px;
     Height: 323.7px;
+    margin-top: 50px;
 }
 
 /*stilos del equipo de trabajo*/
@@ -208,6 +209,7 @@ footer .container {
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 50px;
 }
 
 .team-work {
